@@ -16,6 +16,11 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .sheet(isPresented: .constant(true)) {
+            DependencyContainer.shared.resolveAddNote { note in
+                // TODO
+            }
+        }
     }
 }
 
