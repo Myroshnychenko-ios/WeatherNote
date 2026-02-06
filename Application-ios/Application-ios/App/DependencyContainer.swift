@@ -13,10 +13,12 @@ class DependencyContainer {
     static let shared = DependencyContainer()
     
     private let weatherService: WeatherAPIProtocol
+    private let storageService: StorageAPIProtocol
     
     private init() {
         let networkService = NetworkAPI(baseURL: URL(string: Constants.OpenWeather.urlString)!)
         
         self.weatherService = WeatherAPI(network: networkService)
+        self.storageService = StorageAPI()
     }
 }
