@@ -19,6 +19,7 @@
 		2877C2F72F3630730009AD60 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C2F62F3630730009AD60 /* Weather.swift */; };
 		2877C2F92F3631C80009AD60 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C2F82F3631C80009AD60 /* WeatherResponse.swift */; };
 		2877C2FC2F3634860009AD60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C2FB2F3634860009AD60 /* Constants.swift */; };
+		2877C2FF2F3637270009AD60 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C2FE2F3637270009AD60 /* DependencyContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		2877C2F62F3630730009AD60 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		2877C2F82F3631C80009AD60 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
 		2877C2FB2F3634860009AD60 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2877C2FE2F3637270009AD60 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +69,9 @@
 		2877C2E22F362D550009AD60 /* Application-ios */ = {
 			isa = PBXGroup;
 			children = (
+				2877C2FD2F3637040009AD60 /* App */,
 				2877C2E62F362D570009AD60 /* Core */,
 				2877C2FA2F36347B0009AD60 /* Utils */,
-				2877C2DF2F362D550009AD60 /* Application_iosApp.swift */,
 				2877C2E02F362D550009AD60 /* Assets.xcassets */,
 				2877C2E12F362D550009AD60 /* ContentView.swift */,
 			);
@@ -121,6 +123,15 @@
 				2877C2FB2F3634860009AD60 /* Constants.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		2877C2FD2F3637040009AD60 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2877C2DF2F362D550009AD60 /* Application_iosApp.swift */,
+				2877C2FE2F3637270009AD60 /* DependencyContainer.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +216,7 @@
 				2877C2EC2F362E320009AD60 /* Endpoint.swift in Sources */,
 				2877C2F02F362E420009AD60 /* NetworkError.swift in Sources */,
 				2877C2EE2F362E3B0009AD60 /* HTTPMethod.swift in Sources */,
+				2877C2FF2F3637270009AD60 /* DependencyContainer.swift in Sources */,
 				2877C2EA2F362E270009AD60 /* NetworkAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
