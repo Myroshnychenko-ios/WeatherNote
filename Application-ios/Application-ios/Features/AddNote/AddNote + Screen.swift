@@ -22,7 +22,7 @@ extension AddNote {
             ZStack {
                 content()
             }
-            .background(Color(.systemBackground))
+            .background(Color(.secondarySystemBackground))
             .toolbar {
                 toolbar()
             }
