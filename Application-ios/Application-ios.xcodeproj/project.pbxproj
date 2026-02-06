@@ -27,6 +27,11 @@
 		2877C30D2F363C1B0009AD60 /* AddNote + Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C30C2F363C1B0009AD60 /* AddNote + Action.swift */; };
 		2877C30F2F363C310009AD60 /* AddNote + ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C30E2F363C310009AD60 /* AddNote + ViewModel.swift */; };
 		2877C3112F363C360009AD60 /* AddNote + Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C3102F363C360009AD60 /* AddNote + Screen.swift */; };
+		2877C3482F364A200009AD60 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C3472F364A200009AD60 /* List.swift */; };
+		2877C34A2F364A250009AD60 /* List + State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C3492F364A250009AD60 /* List + State.swift */; };
+		2877C34C2F364A2B0009AD60 /* List + Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C34B2F364A2B0009AD60 /* List + Action.swift */; };
+		2877C34E2F364A340009AD60 /* List + ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C34D2F364A340009AD60 /* List + ViewModel.swift */; };
+		2877C3502F364A390009AD60 /* List + Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C34F2F364A390009AD60 /* List + Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +56,11 @@
 		2877C30C2F363C1B0009AD60 /* AddNote + Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddNote + Action.swift"; sourceTree = "<group>"; };
 		2877C30E2F363C310009AD60 /* AddNote + ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddNote + ViewModel.swift"; sourceTree = "<group>"; };
 		2877C3102F363C360009AD60 /* AddNote + Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddNote + Screen.swift"; sourceTree = "<group>"; };
+		2877C3472F364A200009AD60 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		2877C3492F364A250009AD60 /* List + State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List + State.swift"; sourceTree = "<group>"; };
+		2877C34B2F364A2B0009AD60 /* List + Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List + Action.swift"; sourceTree = "<group>"; };
+		2877C34D2F364A340009AD60 /* List + ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List + ViewModel.swift"; sourceTree = "<group>"; };
+		2877C34F2F364A390009AD60 /* List + Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List + Screen.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +180,7 @@
 		2877C3062F363A590009AD60 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				2877C3462F364A130009AD60 /* List */,
 				2877C3072F363A700009AD60 /* AddNote */,
 			);
 			path = Features;
@@ -185,6 +196,18 @@
 				2877C3102F363C360009AD60 /* AddNote + Screen.swift */,
 			);
 			path = AddNote;
+			sourceTree = "<group>";
+		};
+		2877C3462F364A130009AD60 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				2877C3472F364A200009AD60 /* List.swift */,
+				2877C3492F364A250009AD60 /* List + State.swift */,
+				2877C34B2F364A2B0009AD60 /* List + Action.swift */,
+				2877C34D2F364A340009AD60 /* List + ViewModel.swift */,
+				2877C34F2F364A390009AD60 /* List + Screen.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +287,9 @@
 				2877C2FC2F3634860009AD60 /* Constants.swift in Sources */,
 				2877C2F92F3631C80009AD60 /* WeatherResponse.swift in Sources */,
 				2877C2F42F362ECC0009AD60 /* WeatherEndpoint.swift in Sources */,
+				2877C3502F364A390009AD60 /* List + Screen.swift in Sources */,
 				2877C2F22F362EC30009AD60 /* WeatherAPI.swift in Sources */,
+				2877C34E2F364A340009AD60 /* List + ViewModel.swift in Sources */,
 				2877C3022F3638760009AD60 /* Note.swift in Sources */,
 				2877C2E42F362D550009AD60 /* ContentView.swift in Sources */,
 				2877C2F72F3630730009AD60 /* Weather.swift in Sources */,
@@ -272,10 +297,13 @@
 				2877C2EC2F362E320009AD60 /* Endpoint.swift in Sources */,
 				2877C3092F363BE00009AD60 /* AddNote.swift in Sources */,
 				2877C30F2F363C310009AD60 /* AddNote + ViewModel.swift in Sources */,
+				2877C3482F364A200009AD60 /* List.swift in Sources */,
 				2877C30B2F363C130009AD60 /* AddNote + State.swift in Sources */,
 				2877C2F02F362E420009AD60 /* NetworkError.swift in Sources */,
 				2877C2EE2F362E3B0009AD60 /* HTTPMethod.swift in Sources */,
+				2877C34A2F364A250009AD60 /* List + State.swift in Sources */,
 				2877C3112F363C360009AD60 /* AddNote + Screen.swift in Sources */,
+				2877C34C2F364A2B0009AD60 /* List + Action.swift in Sources */,
 				2877C2FF2F3637270009AD60 /* DependencyContainer.swift in Sources */,
 				2877C2EA2F362E270009AD60 /* NetworkAPI.swift in Sources */,
 			);
