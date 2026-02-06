@@ -21,4 +21,11 @@ class DependencyContainer {
         self.weatherService = WeatherAPI(network: networkService)
         self.storageService = StorageAPI()
     }
+    
+    func resolveAddNote(onComplete: @escaping (Note) -> Void) -> some View {
+        let dependencies = AddNote.Dependencies(weatherService: weatherService)
+        let vm = AddNote.ViewModel(dependencies: dependencies, onComplete: onComplete)
+        let screen = AddNote.Screen(vm: vm)
+        return screen
+    }
 }

@@ -22,6 +22,11 @@
 		2877C2FF2F3637270009AD60 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C2FE2F3637270009AD60 /* DependencyContainer.swift */; };
 		2877C3022F3638760009AD60 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C3012F3638760009AD60 /* Note.swift */; };
 		2877C3052F3638D90009AD60 /* StorageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C3042F3638D90009AD60 /* StorageAPI.swift */; };
+		2877C3092F363BE00009AD60 /* AddNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C3082F363BE00009AD60 /* AddNote.swift */; };
+		2877C30B2F363C130009AD60 /* AddNote + State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C30A2F363C130009AD60 /* AddNote + State.swift */; };
+		2877C30D2F363C1B0009AD60 /* AddNote + Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C30C2F363C1B0009AD60 /* AddNote + Action.swift */; };
+		2877C30F2F363C310009AD60 /* AddNote + ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C30E2F363C310009AD60 /* AddNote + ViewModel.swift */; };
+		2877C3112F363C360009AD60 /* AddNote + Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877C3102F363C360009AD60 /* AddNote + Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +46,11 @@
 		2877C2FE2F3637270009AD60 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 		2877C3012F3638760009AD60 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		2877C3042F3638D90009AD60 /* StorageAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageAPI.swift; sourceTree = "<group>"; };
+		2877C3082F363BE00009AD60 /* AddNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNote.swift; sourceTree = "<group>"; };
+		2877C30A2F363C130009AD60 /* AddNote + State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddNote + State.swift"; sourceTree = "<group>"; };
+		2877C30C2F363C1B0009AD60 /* AddNote + Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddNote + Action.swift"; sourceTree = "<group>"; };
+		2877C30E2F363C310009AD60 /* AddNote + ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddNote + ViewModel.swift"; sourceTree = "<group>"; };
+		2877C3102F363C360009AD60 /* AddNote + Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddNote + Screen.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,7 @@
 			children = (
 				2877C2FD2F3637040009AD60 /* App */,
 				2877C2E62F362D570009AD60 /* Core */,
+				2877C3062F363A590009AD60 /* Features */,
 				2877C2FA2F36347B0009AD60 /* Utils */,
 				2877C2E02F362D550009AD60 /* Assets.xcassets */,
 				2877C2E12F362D550009AD60 /* ContentView.swift */,
@@ -154,6 +165,26 @@
 				2877C3002F3638640009AD60 /* Models */,
 			);
 			path = StorageAPI;
+			sourceTree = "<group>";
+		};
+		2877C3062F363A590009AD60 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2877C3072F363A700009AD60 /* AddNote */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2877C3072F363A700009AD60 /* AddNote */ = {
+			isa = PBXGroup;
+			children = (
+				2877C3082F363BE00009AD60 /* AddNote.swift */,
+				2877C30A2F363C130009AD60 /* AddNote + State.swift */,
+				2877C30C2F363C1B0009AD60 /* AddNote + Action.swift */,
+				2877C30E2F363C310009AD60 /* AddNote + ViewModel.swift */,
+				2877C3102F363C360009AD60 /* AddNote + Screen.swift */,
+			);
+			path = AddNote;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,9 +268,14 @@
 				2877C3022F3638760009AD60 /* Note.swift in Sources */,
 				2877C2E42F362D550009AD60 /* ContentView.swift in Sources */,
 				2877C2F72F3630730009AD60 /* Weather.swift in Sources */,
+				2877C30D2F363C1B0009AD60 /* AddNote + Action.swift in Sources */,
 				2877C2EC2F362E320009AD60 /* Endpoint.swift in Sources */,
+				2877C3092F363BE00009AD60 /* AddNote.swift in Sources */,
+				2877C30F2F363C310009AD60 /* AddNote + ViewModel.swift in Sources */,
+				2877C30B2F363C130009AD60 /* AddNote + State.swift in Sources */,
 				2877C2F02F362E420009AD60 /* NetworkError.swift in Sources */,
 				2877C2EE2F362E3B0009AD60 /* HTTPMethod.swift in Sources */,
+				2877C3112F363C360009AD60 /* AddNote + Screen.swift in Sources */,
 				2877C2FF2F3637270009AD60 /* DependencyContainer.swift in Sources */,
 				2877C2EA2F362E270009AD60 /* NetworkAPI.swift in Sources */,
 			);
